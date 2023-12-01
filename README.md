@@ -12,6 +12,12 @@
 
 #### After clicking Add to cart button, the UI updates and shows Remove from cart button and vice versa
 
+### Dependencies
+
+#### axios for data fetching
+#### Material UI for styling
+#### json-server for mock server
+
 ### Folder Structure
 
 #### src folder 
