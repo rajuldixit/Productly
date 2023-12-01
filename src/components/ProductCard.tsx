@@ -22,12 +22,10 @@ const ProductCard = (props: PropTypes) => {
 
   const addToCart = () => {
     addProduct(product);
-    toggleCartButton();
   };
 
   const removeFromCart = () => {
     removeProduct(product);
-    toggleCartButton();
   };
 
   const toggleCartButton = () => {
@@ -43,7 +41,11 @@ const ProductCard = (props: PropTypes) => {
 
   useEffect(() => {
     toggleCartButton();
+  }, [cartProducts]);
+  useEffect(() => {
+    toggleCartButton();
   }, [product]);
+
   return (
     <Card sx={{ maxWidth: 300, height: 320, position: "relative" }}>
       <CardMedia

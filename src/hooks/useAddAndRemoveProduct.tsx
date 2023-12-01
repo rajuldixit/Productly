@@ -9,12 +9,12 @@ const useAddAndRemoveProduct = () => {
     // Copy the current cart items
     const currentCartItems = [...cartProducts];
 
-    // Find the index of the product in the cart
-    const existingCartItem = currentCartItems.find(
+    // Filter product in the cart
+    const existingCartItem = currentCartItems.filter(
       (item) => item.product.id !== product.id
     );
 
-    if (!existingCartItem) {
+    if (existingCartItem && existingCartItem[0]?.product.id !== product.id) {
       currentCartItems.push({
         product
       });
