@@ -14,9 +14,9 @@
 
 ### Dependencies
 
-#### axios for data fetching
-#### Material UI for styling
-#### json-server for mock server
+#### 1. 'axios' for data fetching
+#### 2. 'Material UI' for styling
+#### 3. 'json-server' for mock server
 
 ### Folder Structure
 
