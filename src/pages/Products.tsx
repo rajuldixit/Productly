@@ -3,6 +3,7 @@ import useProductsApi from "../lib/ProductsApi";
 import ProductCard from "../components/ProductCard";
 import { Grid, Typography } from "@mui/material";
 import { IProduct } from "../utils/interfaces";
+import { PRODUCT_PAGE_HEADING } from "../utils/constants";
 
 const Products = () => {
   const { products, getProducts } = useProductsApi();
@@ -22,7 +23,7 @@ const Products = () => {
   return (
     <>
       <Typography gutterBottom variant="h4" component="div">
-        Products
+        {PRODUCT_PAGE_HEADING}
       </Typography>
       <Grid container spacing={2}>
         {products.map((product: IProduct) => (
