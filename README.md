@@ -4,27 +4,31 @@
 
 ### About the project
 
-#### Onloading the application, user can view the product cards, card shows product's information such as name, description and also has a button to add/remove
+#### Onloading the application, user can view the product cards where card shows product's information such as name, description and also has a button to add/remove
 
 ### Interactions
 
-#### On click description text in the card, the respective product's description will be shown and can be hidden on the text click
+#### On clicking the description text in the card, the respective product's description will be shown and can be hidden by clicking same description text
 
-#### After clicking Add to cart button, UI updates and shows Remove from cart button and vice versa
+#### After clicking Add to cart button, the UI updates and shows Remove from cart button and vice versa
 
 ### Folder Structure
+
+#### src folder 
+
+#### App
 
 #### Pages ( Product )
 
 #### Components ( ProductCard )
 
-#### Context (ProductContext)
+#### Context ( ProductContext )
 
-#### Hooks (UseCart, UseAddAndRemoveProduct)
+#### Hooks ( UseCart, UseAddAndRemoveProduct )
 
-#### Lib (ProductsApi)
+#### Lib ( ProductsApi )
 
-#### Utils (Interfaces, constants)
+#### Utils ( Interfaces, constants )
 
 ### Steps to run
 
@@ -36,7 +40,8 @@
 
 #### Here I am using json-server so we need to start the json-server for mock data, command : npx json-server --watch database/db.json
 
-#### Once json-server is up, now we can run the app bu using command : npm start
+#### Once json-server is up, now we can run the app by using command : npm start
+
 
 
 ![image](https://github.com/rajuldixit/Productly/assets/17043105/4c237e7a-f052-4d08-b8c9-cb8e162acfdc)
