@@ -32,9 +32,11 @@
 
 ### Steps to run
 
-#### Clone the application by using command : git clone https://github.com/rajuldixit/Productly.git
+#### We Clone the application by using command : git clone https://github.com/rajuldixit/Productly.git
 
-#### Once cloned, it will be in master branch, then change directory to Productly
+#### Once cloned, it should be in master branch
+
+####  After that we should change the directory to Productly : cd Productly 
 
 #### After that install the dependencies by using command : npm install
 
