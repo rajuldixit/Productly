@@ -37,3 +37,6 @@
 #### Here I am using json-server so we need to start the json-server for mock data, command : npx json-server --watch database/db.json
 
 #### Once json-server is up, now we can run the app bu using command : npm start
+
+
+![image](https://github.com/rajuldixit/Productly/assets/17043105/4c237e7a-f052-4d08-b8c9-cb8e162acfdc)
