@@ -7,7 +7,7 @@ const useProductsApi = () => {
   const [actionExecuting, setActionExecuting] = useState<boolean>(false);
   const base_url = process.env.SERVER_URL || "http://localhost:3000/";
 
-  async function getProducts() {
+  const getProducts = async () => {
     setActionExecuting(true);
     try {
       const resp = await axios.get(`${base_url}products`);
@@ -17,7 +17,7 @@ const useProductsApi = () => {
     } finally {
       setActionExecuting(false);
     }
-  }
+  };
   return {
     products,
     getProducts
