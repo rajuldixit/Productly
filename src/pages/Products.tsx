@@ -11,10 +11,6 @@ const Products = () => {
     await getProducts();
   }, [getProducts]);
 
-  const addToCart = (item: IProduct) => {
-    console.log(item);
-  };
-
   useEffect(() => {
     fetchProducts();
   }, []);

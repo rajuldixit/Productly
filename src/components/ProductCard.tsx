@@ -52,7 +52,7 @@ const ProductCard = (props: PropTypes) => {
         component="img"
         alt="green iguana"
         height="140"
-        image="https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.xlarge.jpg"
+        image={product.imgUrl}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

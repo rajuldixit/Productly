@@ -3,41 +3,49 @@
     {
       "id": 1,
       "name": "Iphone 14",
+      "imgUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.xlarge.jpg",
       "description": "Ceramic Shield front Glass back and aluminium design"
     },
     {
       "id": 2,
       "name": "Iphone 14 pro",
+      "imgUrl": "https://sm.pcmag.com/t/pcmag_uk/news/f/first-look/first-look-hands-on-with-apples-iphone-14-lineup_4qjx.1920.jpg",
       "description": "Ceramic Shield front Glass back and aluminium design"
     },
     {
       "id": 3,
       "name": "Iphone 14 max",
+      "imgUrl": "https://assets.gqindia.com/photos/6343bda4bac0ed8f5bc20d96/16:9/w_1920,c_limit/iPhone-14-Pro-Max-Review_02.jpg",
       "description": "Ceramic Shield front Glass back and aluminium design"
     },
     {
       "id": 4,
       "name": "Iphone 13",
+      "imgUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.xlarge.jpg",
       "description": "Ceramic Shield front Glass back and aluminium design"
     },
     {
       "id": 5,
       "name": "Iphone 13 pro",
+      "imgUrl": "https://sm.pcmag.com/t/pcmag_uk/news/f/first-look/first-look-hands-on-with-apples-iphone-14-lineup_4qjx.1920.jpg",
       "description": "Ceramic Shield front Glass back and aluminium design"
     },
     {
       "id": 6,
       "name": "Iphone 13 max",
+      "imgUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.xlarge.jpg",
       "description": "Ceramic Shield front Glass back and aluminium design"
     },
     {
       "id": 7,
       "name": "Iphone 12 pro",
+      "imgUrl": "https://assets.gqindia.com/photos/6343bda4bac0ed8f5bc20d96/16:9/w_1920,c_limit/iPhone-14-Pro-Max-Review_02.jpg",
       "description": "Ceramic Shield front Glass back and aluminium design"
     },
     {
       "id": 8,
       "name": "Iphone 12 max",
+      "imgUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.xlarge.jpg",
       "description": "Ceramic Shield front Glass back and aluminium design"
     }
   ]
