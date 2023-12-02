@@ -51,5 +51,4 @@
 #### Once json-server is up, now we can run the app by using command : npm start
 
 
-
-![image](https://github.com/rajuldixit/Productly/assets/17043105/4c237e7a-f052-4d08-b8c9-cb8e162acfdc)
+![image](https://github.com/rajuldixit/Productly/assets/17043105/e97e08a7-74cf-467b-b2df-a5e69dec98ca)
