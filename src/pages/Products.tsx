@@ -20,11 +20,37 @@ const Products = () => {
     return <h1>Loading...</h1>;
   }
 
+  const productsLoaded = () => {
+    const maxProducts = 10;
+    return (products.length / maxProducts) * 100;
+  };
+
   return (
     <>
       <Typography gutterBottom variant="h4" component="div">
         {PRODUCT_PAGE_HEADING}
       </Typography>
+      <div>
+        <span>Products loaded</span>
+        <div
+          style={{
+            width: "400px",
+            background: "#d0c6c6",
+            height: "24px",
+            borderRadius: "16px",
+            marginBottom: "24px"
+          }}
+        >
+          <div
+            style={{
+              width: `${productsLoaded()}%`,
+              background: "steelblue",
+              height: "24px",
+              borderRadius: "16px"
+            }}
+          ></div>
+        </div>
+      </div>
       <Grid container spacing={2}>
         {products.map((product: IProduct) => (
           <Grid item md={3} sm={4} xs={12} key={product.id}>
