@@ -6,7 +6,7 @@ import { IProduct } from "../utils/interfaces";
 import { PRODUCT_PAGE_HEADING } from "../utils/constants";
 
 const Products = () => {
-  const { products, getProducts } = useProductsApi();
+  const { products, errorMessage, getProducts } = useProductsApi();
 
   const fetchProducts = useCallback(async () => {
     await getProducts();
@@ -18,6 +18,10 @@ const Products = () => {
 
   if (products.length == 0) {
     return <h1>Loading...</h1>;
+  }
+
+  if (errorMessage) {
+    return <h1>{errorMessage}</h1>;
   }
 
   const productsLoaded = () => {
